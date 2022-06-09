@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>STRONG
+REFUGEES</title>
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+        <h1><span>STRONG</span> REFUGEES</h1>
+        
+      </div>
+      <ul class="navigation">
+        <a href="#top"><li><h2>Início</h2></li></a>
+        <a href="#about"><li><h2>Sobre Nós</h2></li></a>
+        <a href="#about"><li><h2>Fale conosco</h2></li></a>
+        <a><li id="login"><h2>Acesso</h2></li></a>
+      </ul>
+    </div>
+  </div>
+  
+</div><br><br>
+<h1>Fazer o cadastro : </h1>
+ 
+ <fieldset >
+  <div>
+   <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" class="c1" required><br><br>
+  </div>
+            
+  <div>
+   <input type="email" name="email" id="email" placeholder="Email"  class="c1"   onblur="validarEmail()" 
+   onfocus="redefinirMsg()">
+   <span id="error-email"></span>  
+<br><br>
+            
+  <div>
+   <input type="password" id="senha" placeholder="Senha" class="c1" required>
+<br><br>
+  </div>
+            
+  <div>
+   <input type="text" id="endereco" placeholder="Endereço" class="c1">
+  </div>
+            
+  </div>
+   </Br><input type="text" name="cpf" id="cpf"  placeholder="CPF" class="c1" required>
+  </fieldset>
+
+<h4>  
+<button class="c2" onclick="proximo()">Seguir &#8680;</button>
+<button class="c3" onclick="antes()">&#8678; Voltar</button>
+</h4>
+  
+<script src="script.js"></script>
+</body>
+
+</html> 
